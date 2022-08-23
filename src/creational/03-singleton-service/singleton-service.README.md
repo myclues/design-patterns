@@ -13,3 +13,4 @@ Typically use a singleton where you want the same configuration/options througho
 
 ## Pizza Scenario
 
+I finally landed that job working at a pizza shop with a few others.  But we're a small mom and pop place with only one oven so I just put all the toppings on and hand it off to the oven guy to actually cook.  The oven guy has everything set up the way he likes it so I just give him my input pizza, and he provides the service of baking my pie.
