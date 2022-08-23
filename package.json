@@ -1,0 +1,21 @@
+{
+  "name": "design-patterns",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "all": "npm run factory && npm run builder && npm run singleton",
+    "factory": "ts-node src/creational/01-factory/factory-example.ts",
+    "builder": "ts-node src/creational/02-builder/builder-example.ts",
+    "singleton": "ts-node src/creational/03-singleton-service/singleton-service-example.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/myclues/design-patterns.git"
+  },
+  "homepage": "https://github.com/myclues/design-patterns#readme",
+  "dependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^4.7.4"
+  }
+}
