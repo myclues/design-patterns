@@ -1,6 +1,11 @@
 # Singletons
 
-Typically use a singleton where you want the same configuration/options throughout your app.
+* Class: [singleton-service.ts](./singleton-service.ts)
+* Usage Example: [singleton-service-example.ts](./singleton-service-example.ts)
+
+> The class and example are named `singleton-service.*` because "service" is another common concept that is often implemented as a singleton.
+
+Typically use a singleton where you want the exact same configuration/options throughout your app.
 
 ## Typical Examples
 

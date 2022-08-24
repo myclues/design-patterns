@@ -43,6 +43,6 @@ Sometimes there are generic methods that should be collected together, and are f
 
 Patterns for creating new objects/instances.
 
-1. [Factory](src/creational/01-factory/factory.README.md) - Great for stamping out repeated copies of basic objects
-2. [Builder](src/creational/02-builder/builder.README.md) - Great for customizing objects that all conform to a standard base
-3. [Singleton](src/creational/03-singleton-service/singleton-service.README.md) - For when you want just ONE of something throughout your entire app
+1. [Factory](src/creational/01-factory/README.md) - Great for stamping out repeated copies of basic objects
+2. [Builder](src/creational/02-builder/README.md) - Great for customizing objects that all conform to a standard base
+3. [Singleton](src/creational/03-singleton-service/README.md) - For when you want just ONE of something throughout your entire app
