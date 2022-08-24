@@ -10,6 +10,7 @@ Typically use a singleton where you want the exact same configuration/options th
 ## Typical Examples
 
 - Application-wide configuration options
+- Sharing state between different contexts of code
 - "Services" that reach out to a third-party integration in the same way each time, e.g.
 
     - Logger (if you want just one global logger)
