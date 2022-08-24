@@ -9,6 +9,8 @@ You can see the examples in action by running `npm run all` or looking in `packa
 ## Pattern categories
 
 - [Creational](#creational-patterns)
+- Structural
+- Behavioral
 
 
 ## Why use these patterns?
