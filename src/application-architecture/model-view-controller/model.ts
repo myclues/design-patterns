@@ -89,17 +89,22 @@ export class PriceModel {
  */
  const modelPizza = new PizzaModel(['cheese'], 'S', new PriceModel(10));
 
- console.log('modelPizza:\n', modelPizza);
- 
- /**
-  * This looks like a Pizza, but isn't quite a pizza
-  */
- const homunculusPizza = {
-     _toppings: [ 'cheese' ],
-     size: 'S',
-     price: {
-         cost: 10
-     }
- }
- 
- console.log('Almost a pizza but not quite a pizza:\n', homunculusPizza);
+/**
+ * This looks like a Pizza, but isn't quite a pizza
+ */
+const homunculusPizza = {
+    _toppings: [ 'cheese' ],
+    size: 'S',
+    price: {
+        cost: 10
+    }
+}
+
+console.log('stringified modelPizza:\t\t', JSON.stringify(modelPizza));
+console.log('stringified homunculusPizza:\t', JSON.stringify(homunculusPizza));
+
+console.log('\nmodelPizza is a pizza:\t\t', modelPizza instanceof PizzaModel);
+console.log('homunculusPizza is a pizza:\t', homunculusPizza instanceof PizzaModel);
+
+console.log('\nmodelPizza:\n', modelPizza);
+console.log('homunculusPizza:\n', homunculusPizza);
