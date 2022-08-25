@@ -1,16 +1,20 @@
 # Common design patterns
 
-[Design Patterns](https://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612) is a great reference for a lot of frequently-used programming patterns.
+[Design Patterns](https://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612) is a great reference for a lot of frequently-used object-oriented-programming (OOP) patterns.
 
 This repo contains some typescript examples of some of them.
 
 You can see the examples in action by running `npm run all` or looking in `package.json` for the individual ones.
 
-## Pattern categories
+## OOP Pattern categories
 
 - [Creational](#creational-patterns)
 - Structural
 - Behavioral
+
+### Not quite OOP but still patterns
+
+- [Model-View-Controller (MVC/MVVM)](./src/application-architecture/model-view-controller/README.md)
 
 
 ## Why use these patterns?
