@@ -5,9 +5,9 @@
   "main": "src/index.ts",
   "scripts": {
     "all": "npm run factory && npm run builder && npm run singleton",
-    "factory": "ts-node src/creational/01-factory/factory-example.ts",
-    "builder": "ts-node src/creational/02-builder/builder-example.ts",
-    "singleton": "ts-node src/creational/03-singleton-service/singleton-service-example.ts",
+    "factory": "ts-node src/object-oriented-programming/creational/01-factory/factory-example.ts",
+    "builder": "ts-node src/object-oriented-programming/creational/02-builder/builder-example.ts",
+    "singleton": "ts-node src/object-oriented-programming/creational/03-singleton-service/singleton-service-example.ts",
     "mvc": "ts-node src/application-architecture/model-view-controller/view.ts",
     "mvc-model": "ts-node src/application-architecture/model-view-controller/model.ts"
   },
